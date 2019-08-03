@@ -33,9 +33,10 @@ public class ListaDobleEnlazada {
         ld.eliminarNodo(34);
         
         ld.desplegarLista();
+        ld.desplegarListaAtras();
         
-        escribir("C:/Users/oreyes/Desktop/diagrama.dot", ld.obtenerStringParaGraphviz());
-        dibujar("C:/Users/oreyes/Desktop/diagrama.dot","C:/Users/oreyes/Desktop/diagrama.png");
+        // escribir("C:/Users/oreyes/Desktop/diagrama.dot", ld.obtenerStringParaGraphviz());
+        // dibujar("C:/Users/oreyes/Desktop/diagrama.dot","C:/Users/oreyes/Desktop/diagrama.png");
     }
     
     public static void escribir(String rutaArchivo, String contenido) {

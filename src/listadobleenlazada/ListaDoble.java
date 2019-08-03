@@ -45,6 +45,16 @@ public class ListaDoble {
         }
     }
     
+    public void desplegarListaAtras() {
+        Nodo actual = new Nodo();
+        actual = ultimo;
+        while(actual != null) {
+            System.out.print(actual.dato+" <-> ");
+            // System.out.println(actual.dato);
+            actual = actual.anterior;
+        }
+    }
+    
     public void buscarNodo(int dato) {
         Nodo actual = new Nodo();
         actual =primero;
